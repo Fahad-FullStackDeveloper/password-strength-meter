@@ -1,8 +1,3 @@
-pip
-zxcvbn
+streamlit
+pyzxcvbn
 bcrypt
-sqlite3
-re
-secrets
-string
-os
