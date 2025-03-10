@@ -4,7 +4,7 @@ This Secure Password Strength Meter & User Management System is built using Stre
 
 🔑 1. Password Strength Meter
 Uses the zxcvbn library to analyze password strength.
-Provides a score from 0 to 4, where 0 is weakest and 4 is strongest.
+Provides a score from 0 to 10, where 0 is weakest and 10 is strongest.
 Displays feedback and suggestions to improve password security.
 Uses additional regex checks for uppercase, lowercase, numbers, symbols, and length.
 Displays a progress bar to visualize password strength.
@@ -36,7 +36,7 @@ Logout: Users can securely log out of the system.
 
 📊 6. Developer Info & Versioning
     Sidebar provides developer details (Fahad Khakwani, tech stack, GitHub/LinkedIn).
-    Displays application version (1.1.08).
+    Displays application version (1.1.20).
     💻 Will This Work?
     ✅ Yes! This system will work as intended.
 
@@ -135,7 +135,7 @@ pip install streamlit zxcvbn bcrypt sqlite3
 **Developer Information:**
 - **Author:** Fahad Khakwani  
 - **Tech Stack:** Python, Streamlit, bcrypt, SQLite  
-- **Version:** 1.0.0  
+- **Version:** 1.1.20  
 - **GitHub:** [Link](https://github.com/)  
 - **LinkedIn:** [Link](https://linkedin.com/)  
 

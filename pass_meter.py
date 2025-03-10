@@ -116,7 +116,7 @@ def password_strength_popup():
     is_number = st.checkbox("Include Numbers")
     is_symbol = st.checkbox("Include Symbols")
     
-    password_length = st.slider("Select Password Length", 6, 18, 13)
+    password_length = st.slider("Select Password Length", 4, 18, 13)
     
     if st.button("Generate Now"):
         strong_password = generate_secure_password(password_length, is_upper, is_lower, is_number, is_symbol)
@@ -175,4 +175,4 @@ st.title("🔒 Secure Password Strength Meter & User Management")
 main()
 
 st.text("Developer: Fahad Khakwani")
-st.write("Version: 1.1.18")
+st.write("Version: 1.1.20")
